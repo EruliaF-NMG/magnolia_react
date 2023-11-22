@@ -47,13 +47,13 @@ function PageLoader(props) {
 
   return (
     <div className={pageLoaderProps.magnoliaContext?.isMagnoliaEdit ? "disable-a-pointer-events" : ""}>
-      <header>
+      {/* <header>
         {pageLoaderProps.pagenav && (
           <Navigation content={pageLoaderProps.pagenav}
                       nodeName={nodeName}
                       currentLanguage={pageLoaderProps.magnoliaContext.currentLanguage} />
         )}
-      </header>
+      </header> */}
       <div className='container'>
         {pageLoaderProps.page && (
           <EditablePage templateAnnotations={pageLoaderProps.templateAnnotations || {}}

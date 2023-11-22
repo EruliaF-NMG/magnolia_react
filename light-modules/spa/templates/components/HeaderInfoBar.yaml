@@ -1,0 +1,24 @@
+title: Header Info Bar
+areas:
+  imageComponent:
+    title: Info Bar Area
+    type: single
+    availableComponents:
+      SImage:
+        id: spa:components/Image
+  infoTileComponentList:
+    title: Infor Tile Area
+    availableComponents:
+      HeaderInfoTile:
+        id: spa:components/HeaderInfoTile
+  linkHeadingComponent:
+    title: Link Heading Area
+    type: single
+    availableComponents:
+      ParaText:
+        id: spa:components/ParaText
+  linkBtnComponentList:
+    title: Link Buuton Area
+    availableComponents:
+      ParaText:
+        id: spa:components/Button

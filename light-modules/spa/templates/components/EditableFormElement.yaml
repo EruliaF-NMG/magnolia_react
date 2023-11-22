@@ -1,0 +1,10 @@
+title: Form Element
+dialog: spa:components/EditableFormElement
+areas:
+  childElement:
+    title: Form Area
+    availableComponents:
+      InputBoxWithState:
+        id: spa:components/InputBoxWithState
+      ButtonWithState:
+        id: spa:components/ButtonWithState

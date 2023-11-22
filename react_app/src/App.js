@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import PageLoader from './helpers/PageLoader';
+import './styles/globals.css';
+import './styles/styleguide.css';
+import './styles/style.css';
 import { events } from './helpers/AppHelpers';
+import { GlobalStateProvider } from './components/common/GlobalStateProvider';
 
 function App() {
   const [pathname, setPathname] = useState(window.location.pathname);
@@ -22,7 +26,9 @@ function App() {
 
   return (
     <>
-      <PageLoader pathname={pathname} />
+      <GlobalStateProvider>
+        <PageLoader pathname={pathname} />
+      </GlobalStateProvider>
     </>
   );
 }

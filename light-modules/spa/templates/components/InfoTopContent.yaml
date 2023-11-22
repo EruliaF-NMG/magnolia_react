@@ -1,0 +1,12 @@
+title: Info Top Content Area
+areas:
+  infoContent:
+    title: Info Content Area
+    availableComponents:
+      ParaText:
+        id: spa:components/ParaText
+  imageList:
+    title: Image Area
+    availableComponents:
+      Button:
+        id: spa:components/Image

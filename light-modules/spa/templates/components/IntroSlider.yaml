@@ -1,0 +1,24 @@
+title: Intro Slider Area
+areas:
+  inforBannerSubHeading:
+    title: Banner Sub Heading Area
+    availableComponents:
+      ParaText:
+        id: spa:components/ParaText
+  inforBannerMainHeading:
+    title: Banner Main Heading Area
+    availableComponents:
+      ParaText:
+        id: spa:components/ParaText
+  linkButton:
+    title: Link Button Area
+    type: single
+    availableComponents:
+      Button:
+        id: spa:components/Button
+  backgroundImg:
+    title: Background Image
+    type: single
+    availableComponents:
+      Button:
+        id: spa:components/BackgroundImage

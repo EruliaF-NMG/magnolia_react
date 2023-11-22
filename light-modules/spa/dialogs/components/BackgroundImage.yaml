@@ -1,0 +1,14 @@
+label: Background Image
+form:
+  properties:
+    image:
+      label: Image
+      $type: linkField
+      #defaultValue: /dam/spa-lm/images/union-15.svg
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
+    styleClass:
+      label: Style Class
+      $type: textField
+      i18n: false

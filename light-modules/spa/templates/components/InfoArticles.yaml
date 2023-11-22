@@ -1,0 +1,15 @@
+title: Info Articles Area
+areas:
+  articleElementList:
+    title: Article Elements
+    availableComponents:
+      ParaText:
+        id: spa:components/ParaText
+      Button:
+        id: spa:components/Button
+  articleImage:
+    title: Image Area
+    type: single
+    availableComponents:
+      Button:
+        id: spa:components/Image

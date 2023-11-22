@@ -1,0 +1,25 @@
+label: HeaderInfoTile
+form:
+  properties:
+    title:
+      label: Title
+      $type: textField
+      i18n: true
+    number:
+      label: Mobile Number
+      $type: textField
+      i18n: false
+    linkText:
+      label: Link Text
+      $type: textField
+      i18n: true
+    linkImageAltText:
+      label: Iamge Alt Text
+      $type: textField
+      i18n: true
+    image:
+      label: Icon Image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser

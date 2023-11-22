@@ -1,0 +1,28 @@
+title: 'React: Staysure'
+baseUrl: http://localhost:3000
+routeTemplate: '/{language}{{@path}}'
+# templateScript: /react-minimal-lm/webresources/build/index.html
+dialog: spa:pages/Staysure
+
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+areas:
+
+  header:
+    title: Header Area
+    availableComponents:
+      Header:
+        id: spa:components/Header
+  body:
+    title: Body Area
+    availableComponents:
+      Home:
+        id: spa:components/Home
+      Quotation:
+        id: spa:components/Quotation
+  footer:
+    title: Footer Area
+    availableComponents:
+      Footer:
+        id: spa:components/Footer

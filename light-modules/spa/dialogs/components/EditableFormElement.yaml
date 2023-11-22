@@ -1,0 +1,20 @@
+label: Form Wrapper 
+form:
+  properties:
+    formWrapperClassName:
+      label: Form Wrapper Style
+      $type: textField
+      i18n: true
+    formGroupKey:
+      label: Form Group Key
+      $type: textField
+      i18n: false
+    apiURL:
+      label: API URL
+      $type: textField
+      i18n: false
+    setFormObject:
+      label: Initialize form object
+      $type: codeField
+      height: 100
+      language: freemarker

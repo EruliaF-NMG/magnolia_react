@@ -1,0 +1,14 @@
+title: Header Area
+areas:
+  topBarComponent:
+    title: TopBar Area
+    type: single
+    availableComponents:
+      TopBar:
+        id: spa:components/TopBar
+  infoBarComponent:
+    title: Info Bar Area
+    type: single
+    availableComponents:
+      HeaderInfoBar:
+        id: spa:components/HeaderInfoBar

@@ -1,0 +1,7 @@
+title: Quotation
+areas:
+  childElement:
+    title: Card Area
+    availableComponents:
+      EditableCard:
+        id: spa:components/EditableCard

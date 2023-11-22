@@ -1,0 +1,28 @@
+label: Button With State
+form:
+  properties:
+    name:
+      label: Label Text
+      $type: textField
+      i18n: true
+    formGroupKey:
+      label: Form Group Key
+      $type: textField
+      i18n: false
+    apiUrl:
+      label: Api Url
+      $type: textField
+      i18n: false
+    apiMethod:
+      label: HTTP Method
+      $type: textField
+      i18n: false
+    styleClass:
+      label: Style Class
+      $type: textField
+      i18n: false
+    validationSchema:
+      label: Validation form object
+      $type: codeField
+      height: 100
+      language: freemarker

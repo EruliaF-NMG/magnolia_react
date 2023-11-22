@@ -1,0 +1,22 @@
+label: Button
+form:
+  properties:
+    styleClass:
+      label: Style Class
+      $type: textField
+      i18n: false
+    name:
+      label: Label
+      $type: textField
+      i18n: true
+    isUnderLine:
+      label: Is underline
+      $type: checkBoxField
+      buttonLabel: Select to display title as underline
+      i18n: false
+    image:
+      label: Icon Image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser

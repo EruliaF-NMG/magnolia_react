@@ -1,0 +1,17 @@
+title: Home Area
+areas:
+  introSlider:
+    title: Intro Slider Area
+    availableComponents:
+      IntroSlider:
+        id: spa:components/IntroSlider
+  infoTopContent:
+    title: Info Top Content Area
+    availableComponents:
+      InfoTopContent:
+        id: spa:components/InfoTopContent
+  infoArticles:
+    title: Info Articles Area
+    availableComponents:
+      InfoTopContent:
+        id: spa:components/InfoArticles

@@ -1,7 +1,7 @@
 import React from 'react';
 import { EditableArea } from '@magnolia/react-editor';
 
-const Home = ({ main={} }) => {
+const Home = ({ main=null }) => {
   return (
     <div className="Home">
       <main>

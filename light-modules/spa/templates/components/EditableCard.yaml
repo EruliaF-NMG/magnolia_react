@@ -1,0 +1,8 @@
+title: Card Element
+dialog: spa:components/EditableCard
+areas:
+  childElement:
+    title: Card Area
+    availableComponents:
+      EditableFormElement:
+        id: spa:components/EditableFormElement

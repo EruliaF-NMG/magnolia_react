@@ -1,0 +1,11 @@
+title: Form Editable Area
+areas:
+  childElement:
+    title: Child Elements
+    availableComponents:
+      EditableCard:
+        id: spa:components/EditableCard
+      InputBoxWithState:
+        id: spa:components/InputBoxWithState
+      ButtonWithState:
+        id: spa:components/ButtonWithState

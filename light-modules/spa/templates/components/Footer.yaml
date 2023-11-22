@@ -1,0 +1,31 @@
+title: Footer Area
+areas:
+  socialLinks:
+    title: Social Links Area
+    availableComponents:
+      SImage:
+        id: spa:components/Image
+  reviewStatus:
+    title: Review Status Area
+    availableComponents:
+      SImage:
+        id: spa:components/Image
+      ParaText:
+        id: spa:components/ParaText
+  copyright:
+      title: Copyright Area
+      type: single
+      availableComponents:
+        ParaText:
+          id: spa:components/ParaText
+  logo:
+      title: Logo Area
+      type: single
+      availableComponents:
+        SImage:
+          id: spa:components/Image
+  fotterTextList:
+      title: Footer Text Area
+      availableComponents:
+        ParaText:
+          id: spa:components/ParaText

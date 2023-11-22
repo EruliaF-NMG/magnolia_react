@@ -1,0 +1,9 @@
+label: Intro Slider
+form:
+  properties:
+    image:
+      label: Image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser

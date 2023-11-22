@@ -1,0 +1,28 @@
+label: Input Box 
+form:
+  properties:
+    labelText:
+      label: Label Text
+      $type: textField
+      i18n: true
+    inputType:
+      label: Input Box Type
+      $type: textField
+      i18n: false
+    name:
+      label: Input Key
+      $type: textField
+      i18n: false
+    inputBoxWrapperClassName:
+      label: Input Box Style
+      $type: textField
+      i18n: false
+    placeholder:
+      label: Placeholder Text
+      $type: textField
+      i18n: true
+    formGroupKey:
+      label: Form Group Keys
+      $type: textField
+      i18n: false
+    
