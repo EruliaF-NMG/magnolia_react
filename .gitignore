@@ -1,0 +1,9 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/apache-tomcat
+/downloads
+
+/react_app/node_modules
+/react_app/build
+/react_app/package-lock.json

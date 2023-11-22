@@ -1,0 +1,13 @@
+title: SPA Home
+$type: spa
+dialog: spa:pages/Home
+baseUrl: http://localhost:3000 # SPA server url, will be different for angular and vue.
+routeTemplate: '/{language}{{@path}}'
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+areas:
+  main:
+    title: Main area
+    availableComponents:
+      headline:
+        id: spa:components/Headline
